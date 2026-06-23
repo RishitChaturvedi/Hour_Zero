@@ -1,40 +1,26 @@
-\# Agent Rules
+# Agent Instructions
 
+This repository is for DayOne, HourZero, a Python-first quantitative trading research and backtesting project.
 
+## Core Rules
 
-\## Current setup
+- Read AI_OPERATING_MANUAL.md before starting work.
+- Read CURRENT_STATE.md before making changes.
+- Read NEXT_TASK.md before coding.
+- Do not make architecture changes unless requested.
+- Do not add live trading, broker APIs, or C++ unless explicitly instructed.
+- Prefer simple, testable Python.
+- Write tests for new functionality.
+- Update CURRENT_STATE.md after significant changes.
+- If something is unclear, write the assumption in CURRENT_STATE.md instead of silently deciding.
+- Do not optimize strategy parameters unless the task explicitly says to.
+- Do not change strategy rules after seeing results unless it is logged as a new experiment.
 
-\- Cursor is the main editor.
+## Current Project Phase
 
-\- Codex is the main coding/debugging agent.
+The project is currently in the research/backtesting setup phase.
 
-\- Git is the safety net for tracking and undoing changes.
-
-
-
-\## Working rules
-
-\- Prefer small, reviewable changes.
-
-\- Explain the plan before making large or risky edits.
-
-\- Do not add new libraries without asking.
-
-\- Do not change unrelated files unless necessary.
-
-\- If asked to inspect or plan, do not modify files.
-
-\- After editing, summarize every file changed.
-
-\- Prefer beginner-readable code and explain confusing parts simply.
-
-
-
-\## Git safety
-
-\- Before major changes, check `git status`.
-
-\- After meaningful changes, suggest a commit message.
-
-\- Do not push to GitHub unless explicitly asked.
-
+No live execution.
+No broker integration.
+No C++.
+No real-money trading.
